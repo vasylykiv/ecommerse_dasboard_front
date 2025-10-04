@@ -9,7 +9,7 @@ The orders page contains pagination, as well as the ability to change the number
 The user page has chart components, card components, and other components for displaying information. There is a user edit button that moves to the right, used React-hook-form for the form and Zod for validation.
 
 ## 🎨 Screenshots
-<img src="https://github.com/vasylykiv/ecommerse_dasboard_front/blob/84a6b31018168337835d4235a015da9c941593a5/public/home_page.png" width="800">
+<img src="https://github.com/vasylykiv/ecommerse_dasboard_front/blob/7422c5950fc5c8e27d5db838197a6c58674fd708/public/home_page.png" width="800">
 
 ## 🚀 Tech Stack
 
