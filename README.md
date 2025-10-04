@@ -10,9 +10,8 @@ The user page has chart components, card components, and other components for di
 
 ## 🎨 Screenshots
 
-| Dashboard (home)                                                                                                                              | Dashboard (payments)                                                                                                                          | Dashboard (user)                                                                                                                          |
-| --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/vasylykiv/dashboard_shadcn/blob/3600a499b91c9302f58d78103ee88860ec9df92d/app_previews/homepage.png" width="260"> | <img src="https://github.com/vasylykiv/dashboard_shadcn/blob/3600a499b91c9302f58d78103ee88860ec9df92d/app_previews/payments.png" width="260"> | <img src="https://github.com/vasylykiv/dashboard_shadcn/blob/3600a499b91c9302f58d78103ee88860ec9df92d/app_previews/user.png" width="260"> |
+Dashboard (home) 
+<img src="https://github.com/vasylykiv/dashboard_shadcn/blob/3600a499b91c9302f58d78103ee88860ec9df92d/app_previews/homepage.png" width="600">
 
 ## 🚀 Tech Stack
 
