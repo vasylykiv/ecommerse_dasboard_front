@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ecommerce Admin Dashboard
 
-## Getting Started
+This is the frontend of my Ecommerce app  build with Next.js and Shadcn.
 
-First, run the development server:
+Practiced using Shadcn components, added interactive charts, a sidebar, changed theme colors. Added a separate page for tracking all orders and a user page.
+
+The orders page contains pagination, as well as the ability to change the number of items to display.
+
+The user page has chart components, card components, and other components for displaying information. There is a user edit button that moves to the right, used React-hook-form for the form and Zod for validation.
+
+## 🎨 Screenshots
+
+| Dashboard (home)                                                                                                                              | Dashboard (payments)                                                                                                                          | Dashboard (user)                                                                                                                          |
+| --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://github.com/vasylykiv/dashboard_shadcn/blob/3600a499b91c9302f58d78103ee88860ec9df92d/app_previews/homepage.png" width="260"> | <img src="https://github.com/vasylykiv/dashboard_shadcn/blob/3600a499b91c9302f58d78103ee88860ec9df92d/app_previews/payments.png" width="260"> | <img src="https://github.com/vasylykiv/dashboard_shadcn/blob/3600a499b91c9302f58d78103ee88860ec9df92d/app_previews/user.png" width="260"> |
+
+## 🚀 Tech Stack
+
+This project is built using the following technologies and libraries:
+
+- **[Next.js](https://nextjs.org/)** - The React Framework for Production.
+- **[React](https://reactjs.org/)** - A JavaScript library for building user interfaces.
+- **[TypeScript](https://www.typescriptlang.org/)** - A strongly typed programming language that builds on JavaScript.
+- **[Tailwind CSS](https://tailwindcss.com/)** - A utility-first CSS framework for rapid UI development.
+- **[React Hook Form](https://react-hook-form.com/)** - Performant, flexible and extensible forms with easy-to-use validation.
+- **[Zod](https://zod.dev/)** - TypeScript-first schema declaration and validation library.
+- **[Shadcn](https://ui.shadcn.com/)** - A set of beautifully designed components that you can customize, extend, and build on.
+
+## ⚙️ Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+**1. Clone the repo:**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/vasylykiv/dashboard_shadcn.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**2. Navigate to the project directory:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd dashboard_shadcn
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**3. Install PNPM packages:**
 
-## Learn More
+```bash
+pnpm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+**4. Run the development server:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+pnpm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+After this, open [http://localhost:3000](https://www.google.com/search?q=http://localhost:3000) in your browser to see the application.
