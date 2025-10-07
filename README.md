@@ -8,6 +8,10 @@ The orders page contains pagination, as well as the ability to change the number
 
 The user page has chart components, card components, and other components for displaying information. There is a user edit button that moves to the right, used React-hook-form for the form and Zod for validation.
 
+## Pages
+- payments: to see payments page you need go to http://localhost:3000/payments
+- user: to see certain user page you need go to http://localhost:3000/users/[random_user_name]
+
 ## 🎨 Screenshots
 <img src="https://github.com/vasylykiv/ecommerse_dasboard_front/blob/7422c5950fc5c8e27d5db838197a6c58674fd708/public/home_page.png" width="800">
 
